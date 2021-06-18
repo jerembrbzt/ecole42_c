@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1621259006 source:/Users/jeremybarbezat/Desktop/languagec/final/main.c
+	<stdio.h>
+	<stdlib.h>
+
