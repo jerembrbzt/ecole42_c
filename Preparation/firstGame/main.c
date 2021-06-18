@@ -7,12 +7,12 @@ int main ( int argc, char** argv )
     int nombreMystere = 0, nombreEntre = 0;
     const int MAX = 100, MIN = 1;
 
-    // Gnration du nombre alatoire
+    // GÃ©nÃ©ration du nombre alÃ©atoire
 
     srand(time(NULL));
     nombreMystere = (rand() % (MAX - MIN + 1)) + MIN;
 
-    /* La boucle du programme. Elle se rpte tant que l'utilisateur n'a pas trouv le nombre mystre */
+    /* La boucle du programme. Elle se rÃ©pete tant que l'utilisateur n'a pas trouvÃ© le nombre mystere */
 
     do
     {
@@ -20,7 +20,7 @@ int main ( int argc, char** argv )
         printf("Quel est le nombre ? ");
         scanf("%d", &nombreEntre);
 
-        // On compare le nombre entr avec le nombre mystre
+        // On compare le nombre entrÃ© avec le nombre mystere
 
         if (nombreMystere > nombreEntre)
             printf("C'est plus !\n\n");
