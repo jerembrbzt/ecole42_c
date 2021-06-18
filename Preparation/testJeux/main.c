@@ -8,7 +8,7 @@ int main ( int argc, char** argv )
     int nombreMystere = 0, nombreEntre = 0, CompteCoups = 0, continuer = 1;
     const int MAX = 5, MIN = 1;
 
-    // Génération du nombre aléatoire
+    // Gï¿½nï¿½ration du nombre alï¿½atoire
     while(continuer)
     {
 
@@ -16,7 +16,7 @@ int main ( int argc, char** argv )
     srand(time(NULL));
     nombreMystere = (rand() % (MAX - MIN + 1)) + MIN;
 
-    /* La boucle du programme. Elle se répète tant que l'utilisateur n'a pas trouvé le nombre mystère */
+    /* La boucle du programme. Elle se rï¿½pï¿½te tant que l'utilisateur n'a pas trouvï¿½ le nombre mystï¿½re */
 
     do
     {
@@ -26,7 +26,7 @@ int main ( int argc, char** argv )
         CompteCoups++;
 
 
-        // On compare le nombre entré avec le nombre mystère
+        // On compare le nombre entrï¿½ avec le nombre mystï¿½re
 
         if (nombreMystere > nombreEntre)
             printf("C'est plus !\n\n");
@@ -39,5 +39,8 @@ int main ( int argc, char** argv )
     printf ("veux tu faire une nouvelle partie ?\n0. Non\n1. Oui");
     scanf("%d    \n\n", &continuer);
     }
+
+    // je teste git, c'est topppp
+    
  return 0;
 }
