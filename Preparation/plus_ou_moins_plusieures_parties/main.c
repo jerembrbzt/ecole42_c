@@ -35,6 +35,11 @@ int demande_nombre_mystere()
     int nombreMystere;
     printf("Entrez le nombre mystere (l'autre joueur ne doit pas regarder)");
     scanf("%d", &nombreMystere);
+
+    // Pour eviter que l'autre joueur ne voit le nombre mystere:
+    for(int i=0;i<100;i++) {
+        printf("\n");
+    }
     return nombreMystere;
 }
 
