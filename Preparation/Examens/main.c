@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-    int resultat = 0, nombre1 = 0, nombre2 = 0;
+    int budget = 0, Moins_de_100CHF = 0, Plus_de_100CHF = 0;
 
     // je demande les nombres
 

@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
 void decoupeMinutes(int* pointeurHeures, int* pointeurMinutes)
 {
     
-    *pointeurHeures = *pointeurMinutes / 60;
+    *pointeurHeures = *pointeurMinutes / 50;
     *pointeurMinutes = *pointeurMinutes % 60; 
 }

@@ -3,31 +3,28 @@
 
 int main(int argc, char *argv[])
 {
-int menu;
+    int budget = 0,
+    {
+        printf("Combien avez vous de budget par soirée");
+        scanf("%d", &BUDGET);
 
-printf("------MENU-------\n");
-printf("1. Vodka\n");
-printf("2. Captain\n");
-printf("3. Gin\n");
-printf("4. Jack\n");
-printf("Votre choix");
-scanf("%d  ", &menu  );
+        if (budget > 0)
+            printf("tu commences bien\n\n");
+        else if (pas_charo < charo)
+            printf("aie !\n\n");
+            return 0;
+            ;
+        }
+}
 
-switch (menu)
+int main(int argc, char **argv)
 {
-    case 1:
-        printf("Vous avez choisi une Vodka\n");
-        break;
-    case 2:
-        printf("Vous avez choisi une captain");
-        break;
-    case 3:
-        printf("Vous avez choisi UN GIN");
-        break;
-    case 4:
-        printf("Vous avez choisi une jack ");
-        break;
-
-}
-     return 0;
-}
+    int age = 0;
+     printf("Quelle age avez vous ? ");
+        scanf("%d", &age);
+        if (age > 20)
+            printf("tu commences bien\n\n");
+        else if (20 < age)
+            printf("aie !\n\n");
+            return 0;
+        }
