@@ -5,14 +5,16 @@ void affiche(int *tableau, int tailleTableau);
 
 int main(int argc, char *argv[])
 {
-    int tableau[4] = {10, 15, 3}; 
+    int tableau[] = {10, 15, 3, 4}; 
 
     //tableau contenu 
     affiche(tableau, 4);
 
+
     return 0;
 
 }
+
 
 void affiche(int *tableau, int tailleTableau)
 {

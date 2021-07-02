@@ -1,0 +1,9 @@
+.vscode/
+*.o
+*.cbp
+*.depend
+*.layout
+*.dSYM/
+bin/
+obj/
+runme
